@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.22)  22 APR 2024 20:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.22)  29 APR 2024 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1252,7 +1252,7 @@ LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
-Overfull \hbox (6.1422pt too wide) in paragraph at lines 3--3
+Overfull \hbox (6.1422pt too wide) in paragraph at lines 4--4
  [][] [][][]\OT1/ptm/m/n/12 Encuesta de per-so-nas con dis-ca-pa-ci-dad . Fuen-
 te: [][][] [][]  
  []
@@ -1278,68 +1278,72 @@ LaTeX Info: Redefining \% on input line 1.
 
  (1/planteamiento.tex
 Cap\'{\i }tulo 1.
-[10
-
-
-]
-<1/figures/Encuesta_personas_discapacidad.png, id=358, 301.125pt x 383.18156pt>
-
-File: 1/figures/Encuesta_personas_discapacidad.png Graphic file (type png)
-<use 1/figures/Encuesta_personas_discapacidad.png>
-Package pdftex.def Info: 1/figures/Encuesta_personas_discapacidad.png  used on 
-input line 16.
-(pdftex.def)             Requested size: 226.48413pt x 288.20987pt.
-
-
-LaTeX Warning: Citation 'encuesta_personas_discapacidad' on page 11 undefined o
-n input line 17.
-
-
-LaTeX Warning: Citation 'encuesta_personas_discapacidad' on page 11 undefined o
-n input line 17.
-
-<1/figures/personas_discapacidad.jpg, id=359, 469.098pt x 328.8285pt>
+<1/figures/personas_discapacidad.jpg, id=353, 469.098pt x 328.8285pt>
 File: 1/figures/personas_discapacidad.jpg Graphic file (type jpg)
 <use 1/figures/personas_discapacidad.jpg>
 Package pdftex.def Info: 1/figures/personas_discapacidad.jpg  used on input lin
-e 24.
+e 14.
 (pdftex.def)             Requested size: 226.48413pt x 158.75911pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 
-LaTeX Warning: Citation 'porcentaje de_personas_discapacidad' on page 11 undefi
-ned on input line 25.
+LaTeX Warning: Citation 'porcentaje de_personas_discapacidad' on page 10 undefi
+ned on input line 15.
 
 
-LaTeX Warning: Citation 'porcentaje de_personas_discapacidad' on page 11 undefi
-ned on input line 25.
+LaTeX Warning: Citation 'porcentaje de_personas_discapacidad' on page 10 undefi
+ned on input line 15.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Info: Redefining \. on input line 41.
-LaTeX Info: Redefining \% on input line 41.
-[11 <./1/figures/Encuesta_personas_discapacidad.png>]
-LaTeX Info: Redefining \. on input line 78.
-LaTeX Info: Redefining \% on input line 78.
- [12 <./1/figures/personas_discapacidad.jpg>]
-LaTeX Info: Redefining \. on input line 102.
-LaTeX Info: Redefining \% on input line 102.
- [13])
+[10
+
+
+]
+<1/figures/Encuesta_personas_discapacidad.png, id=359, 301.125pt x 383.18156pt>
+
+File: 1/figures/Encuesta_personas_discapacidad.png Graphic file (type png)
+<use 1/figures/Encuesta_personas_discapacidad.png>
+Package pdftex.def Info: 1/figures/Encuesta_personas_discapacidad.png  used on 
+input line 24.
+(pdftex.def)             Requested size: 113.24207pt x 144.102pt.
+
+
+LaTeX Warning: Citation 'encuesta_personas_discapacidad' on page 11 undefined o
+n input line 25.
+
+
+LaTeX Warning: Citation 'encuesta_personas_discapacidad' on page 11 undefined o
+n input line 25.
+
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+[11 <./1/figures/personas_discapacidad.jpg> <./1/figures/Encuesta_personas_disc
+apacidad.png>]
+LaTeX Info: Redefining \. on input line 94.
+LaTeX Info: Redefining \% on input line 94.
+ [12]
+LaTeX Info: Redefining \. on input line 109.
+LaTeX Info: Redefining \% on input line 109.
+ [13]
+LaTeX Info: Redefining \. on input line 128.
+LaTeX Info: Redefining \% on input line 128.
+ [14])
 LaTeX Info: Redefining \. on input line 193.
 LaTeX Info: Redefining \% on input line 193.
- [14]
+ [15]
 \openout2 = `2/marco.aux'.
 
  (2/marco.tex
 Cap\'{\i }tulo 2.
 (2/1_antecedentes/antecedentes.tex
 
-LaTeX Warning: Citation 'pr_dehghani2018copper' on page 15 undefined on input l
+LaTeX Warning: Citation 'pr_dehghani2018copper' on page 16 undefined on input l
 ine 4.
 
 
@@ -1356,33 +1360,33 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 4.
 
 
-LaTeX Warning: Citation 'pr_dehghani2018copper' on page 15 undefined on input l
+LaTeX Warning: Citation 'pr_dehghani2018copper' on page 16 undefined on input l
 ine 5.
 
 
-LaTeX Warning: Citation 'pr_dehghani2018copper' on page 15 undefined on input l
+LaTeX Warning: Citation 'pr_dehghani2018copper' on page 16 undefined on input l
 ine 5.
 
-[15
+[16
 
 
 
 
 ]) (2/2_teoria/base_teo.tex
 
-LaTeX Warning: Citation 'tec_royal2017machine' on page 16 undefined on input li
+LaTeX Warning: Citation 'tec_royal2017machine' on page 17 undefined on input li
 ne 2.
 
 
-LaTeX Warning: Citation 'bk_gollapudi2016practical' on page 16 undefined on inp
+LaTeX Warning: Citation 'bk_gollapudi2016practical' on page 17 undefined on inp
 ut line 4.
 
 
-LaTeX Warning: Citation 'bk_goyal2018deep' on page 16 undefined on input line 7
+LaTeX Warning: Citation 'bk_goyal2018deep' on page 17 undefined on input line 7
 .
 
 
-LaTeX Warning: Citation 'bk_goyal2018deep' on page 16 undefined on input line 9
+LaTeX Warning: Citation 'bk_goyal2018deep' on page 17 undefined on input line 9
 .
 
 LaTeX Font Info:    Trying to load font information for OML+ptm on input line 9
@@ -1394,33 +1398,33 @@ LaTeX Font Info:    Font shape `OML/ptm/b/n' in size <12> not available
 (Font)              Font shape `OML/cmm/b/it' tried instead on input line 9.
 
 
-LaTeX Warning: Citation '' on page 16 undefined on input line 9.
+LaTeX Warning: Citation '' on page 17 undefined on input line 9.
 
 ) (2/3_conceptos/marc_conceptual.tex))
 LaTeX Info: Redefining \. on input line 194.
 LaTeX Info: Redefining \% on input line 194.
- [16]
+ [17]
 LaTeX Info: Redefining \. on input line 194.
 LaTeX Info: Redefining \% on input line 194.
- [17]
+ [18]
 \openout2 = `3/metodologia.aux'.
 
  (3/metodologia.tex
 Cap\'{\i }tulo 3.
-[18
+[19
 
 
 
 
 ]
-<3/figures/largepotato.jpg, id=406, 491.8375pt x 291.0875pt>
+<3/figures/largepotato.jpg, id=410, 491.8375pt x 291.0875pt>
 File: 3/figures/largepotato.jpg Graphic file (type jpg)
 <use 3/figures/largepotato.jpg>
 Package pdftex.def Info: 3/figures/largepotato.jpg  used on input line 24.
 (pdftex.def)             Requested size: 362.37598pt x 214.47751pt.
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
- [19 <./3/figures/largepotato.jpg>]
+ [20 <./3/figures/largepotato.jpg>]
 LaTeX Font Info:    Trying to load font information for U+eus on input line 54.
 
 
@@ -1430,15 +1434,15 @@ File: ueus.fd 2013/01/14 v3.01 Euler Script
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
 
-[20])
+[21])
 LaTeX Info: Redefining \. on input line 195.
 LaTeX Info: Redefining \% on input line 195.
- [21]
+ [22]
 \openout2 = `4/desarrollo.aux'.
 
  (4/desarrollo.tex
 Cap\'{\i }tulo 4.
-[22
+[23
 
 
 
@@ -1446,12 +1450,12 @@ Cap\'{\i }tulo 4.
 ])
 LaTeX Info: Redefining \. on input line 196.
 LaTeX Info: Redefining \% on input line 196.
- [23]
+ [24]
 \openout2 = `5/resultados.aux'.
 
  (5/resultados.tex
 Cap\'{\i }tulo 5.
-) [24
+) [25
 
 
 
@@ -1459,17 +1463,17 @@ Cap\'{\i }tulo 5.
 ]
 LaTeX Info: Redefining \. on input line 197.
 LaTeX Info: Redefining \% on input line 197.
- [25]
+ [26]
 \openout2 = `6/conclusion.aux'.
 
  (6/conclusion.tex
 Cap\'{\i }tulo 6.
-) [26
+) [27
 
 
 
 
-] [27
+] [28
 
 
 
@@ -1480,33 +1484,28 @@ Cap\'{\i }tulo 6.
  (anexos/anexo.tex
 Anexos A.
 
-Underfull \hbox (badness 1377) in paragraph at lines 15--15
-[]|\OT1/ptm/m/n/10.95 Mediante el mo-de-lo de Deep
+Underfull \hbox (badness 1412) in paragraph at lines 15--15
+\OT1/ptm/m/n/10.95 fa-ci-li-tar la co-mu-ni-ca-ci[]on pa-ra
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 15--15
+[]|\OT1/ptm/m/n/10.95 Desarrollar un mo-de-lo Deep
  []
 
 
 Underfull \hbox (badness 1721) in paragraph at lines 15--15
-\OT1/ptm/m/n/10.95 Lear-ning se uti-li-zar[]a una he-
+\OT1/ptm/m/n/10.95 Lear-ning que se uti-li-zar[]a co-
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 15--15
-\OT1/ptm/m/n/10.95 rra-mien-ta de tra-duc-ci[]on en-tre
+Underfull \hbox (badness 1721) in paragraph at lines 15--16
+[]|\OT1/ptm/m/n/10.95 Mediante el de-sa-rro-llo de un
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 20--20
-\OT1/ptm/m/n/10.95 li-zan-do t[]ecni-cas de vi-si[]on de
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 22--22
-[]|\OT1/ptm/m/n/10.95 ?`C[]omo los mo-de-los de Deep
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 24--24
-[]|\OT1/ptm/m/n/10.95 ?`De que ma-ne-ra los mo-de-los
+Underfull \hbox (badness 3826) in paragraph at lines 24--24
+\OT1/ptm/m/n/10.95 eva-lua-ci[]on de mo-de-los Deep
  []
 
 
@@ -1515,15 +1514,18 @@ Overfull \hbox (11.42305pt too wide) in paragraph at lines 7--27
  []
 
 
+LaTeX Warning: Float too large for page by 2.2141pt on input line 29.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28
+[29
 
 
 ]
 LaTeX Info: Redefining \. on input line 33.
 LaTeX Info: Redefining \% on input line 33.
- [29]
+ [30]
 Anexos B.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
@@ -1836,12 +1838,12 @@ Underfull \hbox (badness 7362) in paragraph at lines 71--73
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [30
+) [31
 
 ]
 LaTeX Info: Redefining \. on input line 207.
 LaTeX Info: Redefining \% on input line 207.
- [31]
+ [32]
 
 LaTeX Warning: Empty bibliography on input line 212.
 
@@ -1872,10 +1874,10 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29209 strings out of 474424
- 570518 string characters out of 5741739
- 1953496 words of memory out of 5000000
- 50965 multiletter control sequences out of 15000+600000
+ 29211 strings out of 474424
+ 572301 string characters out of 5741739
+ 1954496 words of memory out of 5000000
+ 50966 multiletter control sequences out of 15000+600000
  609632 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,32n,84p,1284b,3514s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1891,9 +1893,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/lodad/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/lodad/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/lodad/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (32 pages, 581218 bytes).
+Output written on tesis.pdf (33 pages, 586781 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
+ 543 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
  485 words of extra memory for PDF output out of 10000 (max. 10000000)
 
