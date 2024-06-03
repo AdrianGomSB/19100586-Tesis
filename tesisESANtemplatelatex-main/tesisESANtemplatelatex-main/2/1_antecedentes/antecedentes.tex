@@ -1,26 +1,99 @@
 En esta sección se presentarán diversos artículos de investigación o tesis las cuales abordarán diversas técnicas y enfoques que se emplearon para afrontar problemas similares al de esta tesis. Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{A:table}) de lo que se presenta en esta sección.
 
 
-\subsection{Copper price estimation using bat algorithm \citep*{pr_dehghani2018copper}}
-\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Resources Policy» en el año 2018. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Estimación del precio del cobre utilizando el algoritmo bat».
+\subsection{DeepASL: Enabling Ubiquitous and Non-IntrusiveWord and Sentence-Level Sign Language Translation}
 
-\subsubsection{Planteamiento del Problema y objetivo }
-hhhhj
+DeepASL es un modelo de traducción de lenguaje de señas basada en Deep Learning que permite la traducción de ASL (American Sign Language) tanto a nivel de palabra como de oración de manera no intrusiva, es decir  este método no requiere que el usuario use algún equipo que cambie su comportamiento natural. Utiliza una luz infrarroja y un innovador sistema jerárquico bidireccional de redes neuronales recurrentes (HB-RNN) junto con un marco probabilístico basado en la Clasificación Temporal Conexionista (CTC).
 
-\subsubsection{Técnicas empleadas por los autores}
-Los autores plantearon emplear una combinación entre la función de series de tiempo y el aljhkk. 
+\subsubsection {Metodología}
+La metodología del documento incluye varias etapas, a partir de la recolección de datos hasta la implementación del modelo. A continuación, se presenta un resumen de la metodología junto con gráficos relevantes:
 
-\subsubsection{Metodología empleada por los autores}
-gfhhhh
-%%%Ecuacion
-\begin{equation}  
-\label{eq:RMSE}
-RMSE = \sqrt{\frac{\sum_{i=1}^{N}{\Big(O_i -T_i\Big)^2}}{N}}
-\end{equation}
+\begin{enumerate}
+	\item {Recolección de datos: }
+	Se recolectaron 7,306 muestras de 11 participantes, de las cuales 56 palabras y 100 oraciones comúnmente usadas en lenguaje de señas americano. También se recolectaron 1,178 muestras bajo diferentes condiciones de iluminación, posturas corporales e interferencia en la escena para evaluar la robustez del sistema.
+	\item {Captura de Señales: }
+	Se utilizó el dispositivo Leap Motion, que emplea luz infrarroja para capturar de manera no intrusiva las señas de ASL. Leap Motion extrae la información de las articulaciones del esqueleto de los dedos, palmas y antebrazos.
+	\item {Extracción de Características}
+	Se aprovecharon conocimientos del dominio de ASL para extraer las características clave de las señas, incluyendo la forma de la mano, el movimiento de la mano y la ubicación relativa de las dos manos.
+	\item {Modelado y Traducción: }
+	Se empleó un sistema jerárquico bidireccional de redes neuronales recurrentes (HB-RNN) para modelar la estructura espacial y dinámica temporal de las características extraídas para la traducción a nivel de palabra. Para la traducción a nivel de oración, se adoptó un marco probabilístico basado en la Clasificación Temporal Conexionista (CTC).
+	\item {Evaluación del Rendimiento: }
+	Se evaluó el rendimiento del sistema en términos de precisión de traducción, robustez bajo diferentes condiciones del mundo real y rendimiento del sistema (tiempo de ejecución, uso de memoria y consumo de energía). DeepASL se implementó en tres plataformas con diferente poder de cómputo: una computadora de escritorio, una plataforma móvil Nvidia Jetson TX1 y una tableta Microsoft Surface Pro 4.
+\end{enumerate}
+\subsubsection {Conclusiones}
+El modelo DeepASL demostró ser robusto en diversas condiciones de iluminación, posturas corporales y con diferentes fuentes de interferencia.
+El sistema mostró un rendimiento de tiempo de ejecución de 282ms en el peor de los casos y fue capaz de soportar un número suficiente de inferencias para su uso diario en plataformas móviles y de tabletas.
 
-gfghf tal forma mejorar aún más la precisión de la predicción del precio del cobre.
 
-\subsubsection{Resultados obtenidos}
-Las funciones de serie de tiempo más importantes se usaron para estimar los cambios en el precio del cobre. Entre ellos, la serie BMMR con una media de RMSE de 0.449 presentó la mejor estimación. El algoritmo Bat  se usó para modificar la función de tiempo BMMR debido a su alta capacidad para estimar los cambios en el precio del metal. Se obtuvo un RMSE de 0.132 de la ecuación modificada con BA. Los resultados obtenidos tienen una precisión mucho mayor y, a diferencia del BMMR, están más cerca de la realidad.
+\subsection{Sign Language Fingerspelling Recognition Using DepthInformation and Deep Belief Networks}
+Este sistema traductor de lenguaje de señas contiene una técnica de profundidad utilizando redes de creencias profundas (DBNs) para la detección de dedos en el deletreo del lenguaje de señas. Se utilizan momentos de Zernike y histogramas de gradientes orientados (HOG) como características discriminativas.
 
- 
+\subsubsection {Metodología}
+
+\begin{enumerate}
+	\item {Preprocesamiento de Datos: }
+	Se capturan secuencias de imágenes que representan la dinámica de las señas. Las imágenes son normalizadas y redimensionadas para mantener la consistencia en los datos de entrada.
+	\item {Modelo Híbrido CNN-RNN: }
+	La CNN se utiliza para extraer características espaciales de cada imagen en la secuencia. Una RNN, específicamente una LSTM, se emplea para capturar dependencias temporales entre las secuencias de imágenes. El modelo híbrido es entrenado con un conjunto de datos etiquetado, ajustando hiperparámetros para optimizar el rendimiento.
+	\item {Evaluación del Modelo: }
+	En este modelo de traducción, para medir los resultados se enfocan en las métricas de precisión, sensibilidad, especificidad y F1-score. Se realizan pruebas para evaluar la robustez del modelo ante variaciones en las condiciones de iluminación y ángulos de captura.
+\end{enumerate}
+\subsubsection {Conclusiones: }
+	La combinación de CNN y RNN mejora significativamente el reconocimiento de señas al capturar tanto características espaciales como temporales. Se identifican desafíos como la necesidad de más datos para entrenar adecuadamente el modelo y la importancia de la diversidad en el conjunto de datos. Futuras investigaciones pueden enfocarse en mejorar la eficiencia computacional del modelo y explorar otras arquitecturas híbridas.
+
+
+\subsection{Deep learning-based sign language recognition system for static signs }
+	El documento describe un estudio sobre el reconocimiento de letras del alfabeto manual utilizando información de profundidad y redes de creencias profundas (DBN). El objetivo principal es mejorar la precisión y eficiencia del reconocimiento de lenguaje de señas, específicamente el dactilológico.
+
+\subsubsection {Metodología: }
+	\begin{enumerate}
+		\item {Adquisición de Datos: }
+			Se utilizaron sensores de profundidad para capturar imágenes de las manos formando las letras del alfabeto manual. Los datos capturados incluyen tanto imágenes de profundidad como información adicional relevante para el reconocimiento de señas.
+		
+		\item {Preprocesamiento de Datos: }
+			Las imágenes de profundidad se preprocesaron para resaltar las características importantes y reducir el ruido. Se aplicaron técnicas de normalización y segmentación para preparar los datos para su uso en el modelo de aprendizaje profundo.
+			
+		\item {Modelo de Aprendizaje: }
+			Se utilizó una Red de Creencias Profundas (DBN) para el reconocimiento de letras. El modelo se entrenó utilizando los datos preprocesados, ajustando los parámetros para optimizar el rendimiento.
+			
+		\item {Validación y Evaluación: }
+			Se dividieron los datos en conjuntos de entrenamiento y prueba. Se utilizaron métricas de precisión, recall y F1-score para evaluar el rendimiento del modelo. Se realizaron pruebas cruzadas para asegurar la robustez del modelo.
+			
+\end{enumerate}
+\subsubsection {Conclusiones: }
+	El uso de información de profundidad en combinación con DBN es una técnica efectiva para el reconocimiento de lenguaje de señas. La metodología propuesta puede ser utilizada para desarrollar sistemas de traducción de lenguaje de señas más eficientes y precisos. Se identificaron áreas para futuras investigaciones, como la inclusión de más datos y la optimización de los modelos para diferentes lenguas de señas.
+	
+
+\subsection{Enabling Real-time Sign Language Translation on Mobile Platforms with On-board Depth Cameras}
+Este trabajo presenta un sistema para la traducción de lenguaje de señas en tiempo real utilizando cámaras de profundidad en dispositivos móviles. El sistema, denominado SUGO, utiliza un modelo de red neuronal convolucional 3D (3DCNN) basado en ResNet-18, adaptado para la extracción de características de secuencias de imágenes en video.
+\subsubsection {Metodología: }
+	\begin{enumerate}
+		\item {Arquitectura del modelo: }
+		 Se utiliza el modelo ResNet-18 adaptado a 3DCNN, preentrenado con el dataset Kinetics-400 y luego reentrenado con un dataset propio.
+		\item {Limpieza y cuantización: }
+		Para reducir el tamaño del modelo y su complejidad computacional, se aplican técnicas de poda de filtros y cuantificación de pesos, convirtiendo todos los parámetros de peso a unidades de punto flotante de menor precisión.
+		\item {Aumento de base de datos: }
+		Se genera un dataset aumentado para hacer el modelo más robusto frente a ruidos de movimiento. Este dataset incluye datos que imitan los ruidos de movimiento que pueden introducirse en escenarios de uso real.
+		\item {Segmentación de palabras: }
+		Se implementa un módulo de segmentación de palabras que utiliza una ventana deslizante para dividir secuencias de video en subconjuntos manejables para la clasificación de palabras individuales.
+	\end{enumerate}
+\subsubsection {Conclusiones: }
+La poda de filtros y la cuantificación de pesos reducen el tamaño y la complejidad del modelo, haciéndolo adecuado para su operación en dispositivos móviles con recursos limitados. La adición de datos aumentados durante la fase de entrenamiento mejora la resiliencia del sistema frente a ruidos de movimiento, aunque introduce una ligera degradación (0.3\%). El sistema demuestra una capacidad efectiva para clasificar gestos de lenguaje de señas en tiempo real en diversas condiciones de iluminación y movimiento.
+
+
+\subsection{Using Deep Learning in Sign Language Translation to Text}
+El documento revisa múltiples estudios sobre el reconocimiento de lenguaje de señas utilizando técnicas de aprendizaje profundo y captura de movimiento. Se enfoca en diferentes lenguajes de señas y diversas metodologías aplicadas, como redes neuronales convolucionales (CNN), redes neuronales de creencias profundas (DBN), y otras técnicas avanzadas de aprendizaje automático. El objetivo principal es analizar y comparar estas metodologías para entender sus fortalezas y limitaciones en el contexto del reconocimiento de lenguaje de señas.
+\subsubsection {Metodología: }
+	\begin{enumerate}
+		\item {Redes Neuronales Convolucionales (CNN): }
+		Estas redes son eficaces en la extracción de características espaciales de las imágenes, lo que las hace adecuadas para el reconocimiento de gestos y señas.
+		\item {Redes de Creencias Profundas (DBN): }
+		Utilizadas para la extracción de características de datos de profundidad, lo que ayuda en la identificación precisa de las formas y movimientos de las manos.
+		\item {Clasificación Temporal Conexista (CTC): }
+		Una técnica que permite el reconocimiento de secuencias sin necesidad de segmentación explícita de los datos de entrada.
+		\item {Cámaras de Profundidad a Bordo: }
+		Utilizadas para capturar datos en 3D, proporcionando información detallada sobre la posición y el movimiento de las manos.
+	\end{enumerate}
+\subsubsection {Conclusiones: }
+Los estudios revisados muestran una alta variabilidad en la precisión y efectividad de las técnicas utilizadas, dependiendo del lenguaje de señas y la complejidad de los gestos. Este estudio utilizó CNN y cámaras de profundidad y lograron una precisión superior al 90\% en el reconocimiento de ciertos lenguajes de señas, como el American Sign Language (ASL). Las técnicas enfrentan dificultades cuando se trata de señas complejas o cuando el modelo debe generalizar a diferentes personas y contextos. La disponibilidad y calidad de los datos de entrenamiento son cruciales para el rendimiento de los modelos de aprendizaje profundo. Estudios con grandes conjuntos de datos de alta calidad obtuvieron mejores resultados.
+
